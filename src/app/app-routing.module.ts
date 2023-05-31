@@ -1,12 +1,12 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { primeiroComponente } from '../../../fundamentos-angular/src/app/primeiro-components/primeiro-componente.components';
 import { AppComponent } from "./app.component";
 import { SegundaPagComponent } from "./segunda-pag/segunda-pag.component";
+import { PrimeirapagComponent } from "./primeirapag/primeirapag.component";
 
 const routes: Routes = [
-    {path: '', component: AppComponent},
-    {path: 'segunda', component: SegundaPagComponent}
+    {path: 'primeira-pag', component: PrimeirapagComponent},
+    {path: 'segunda-pag', component: SegundaPagComponent}
 ]
 
 @NgModule({
